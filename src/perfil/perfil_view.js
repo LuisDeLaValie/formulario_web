@@ -5,11 +5,15 @@ import './perfil_stilo.css'
 
 function PerfilView({ datos }) {
   return (
-    <div>
+    <div className='perfil-container'>
       <h2>Perfil</h2>
-      <p>Nombre: {datos.nombre}</p>
-      <p>Cargo: {datos.cargo}</p>
-      <img src={datos.imagen} alt="Imagen de perfil" />
+      <div className='perfil'>
+        <img src={datos.imagen} alt="Imagen de perfil" className='perfil-image' />
+        <div className='perfil-info'>
+          <p><strong>Nombre:</strong> {datos.nombre}</p>
+          <p><strong>Cargo:</strong> {datos.cargo}</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -30,7 +30,7 @@ function FormularioView({ datos, actualizarDatos }) {
     };
 
     return (
-        <div>
+        <div className='formulario-container'>
             <h2>Editar Perfil</h2>
             <form onSubmit={handleSubmit} className='formulario'>
                 <input

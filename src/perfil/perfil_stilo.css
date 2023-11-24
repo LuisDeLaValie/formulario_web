@@ -1,0 +1,40 @@
+.perfil-container {
+    width: 300px;
+    margin: 20px;
+
+    border: 1px solid #ccc;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-image {
+    width: 80px;
+    /* Ancho de la imagen */
+    height: 80px;
+    /* Altura de la imagen */
+    border-radius: 50%;
+    /* Forma circular para la imagen */
+    margin-right: 20px;
+    /* Espacio entre la imagen y la información */
+}
+
+.perfil-info {
+    font-size: 16px;
+    /* Tamaño de fuente para la información */
+}
+
+/* Estilos para el título "Perfil" */
+h2 {
+    font-size: 24px;
+    /* Tamaño de fuente del título */
+    margin-bottom: 15px;
+    /* Espaciado inferior */
+}
