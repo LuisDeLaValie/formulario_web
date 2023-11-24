@@ -1,6 +1,8 @@
 // Componente Perfil
 import React from 'react';
 
+import './perfil_stilo.css'
+
 function PerfilView({ datos }) {
   return (
     <div>

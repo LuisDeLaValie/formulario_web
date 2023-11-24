@@ -1,6 +1,8 @@
 // Componente Formulario
 import React, { useState } from 'react';
 
+import './formulario_stilo.css'
+
 function FormularioView({ datos, actualizarDatos }) {
     const [nuevosDatos, setNuevosDatos] = useState({});
 
@@ -30,7 +32,7 @@ function FormularioView({ datos, actualizarDatos }) {
     return (
         <div>
             <h2>Editar Perfil</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='formulario'>
                 <input
                     type="file"
                     name="imagen"
